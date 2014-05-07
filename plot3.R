@@ -1,8 +1,6 @@
 # Script reproduces Plot 3
 # Data file should be in the same folder
 
-# Get data for histogram
-
 # Read all data as characters
 data <- read.csv("household_power_consumption.txt", sep=";", colClasses = "character")
 # Remove unnecessary columns
